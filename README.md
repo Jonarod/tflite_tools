@@ -2,9 +2,9 @@ This project is a workflow to retrain a tensorflow model and convert it to tenso
 
 ## Generate training set from video
 ```bash
-mkdir training_set/mylabel_1
+mkdir -p training_set/mylabel_1
 
-mkdir training_set/mylabel_2
+mkdir -p training_set/mylabel_2
 
 docker run -it -v `pwd`:/home jonarod/tflite_tools \
     ffmpeg -i /home/myvideo_1.mp4 /home/training_set/mylabel_1/myvideo_%04d.jpg
