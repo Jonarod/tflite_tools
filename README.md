@@ -35,9 +35,9 @@ docker run -it -v `pwd`:/home jonarod/tflite_tools \
 ## Test model with an image
 ```bash
 docker run -it -v `pwd`:/home jonarod/tflite_tools \
-    python3 -m scripts.label_image \
+    python -m scripts.label_image \
     --image=/home/test_set/my_random_test_image.jpg \
-    --graph=/home/my_model/retrained_graph.pb
+    --graph=/home/my_model/retrained_graph.pb \
     --labels=/home/my_model/retrained_labels.txt
 ```
 
