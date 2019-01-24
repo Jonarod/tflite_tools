@@ -56,7 +56,7 @@ docker run -it -v `pwd`:/home jonarod/tflite_tools \
     --mean_values=128 \
     --std_dev_values=128 \
     --default_ranges_min=0 \
-    --default_ranges_max=6
+    --default_ranges_max=100
 ```
 
 ## Convert from FLOAT `.pb` to  FLOAT `.tflite`

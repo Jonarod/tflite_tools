@@ -19,5 +19,6 @@ RUN chmod +x /usr/local/bin/scripts/retrain.py
 RUN chmod +x /usr/local/bin/scripts/show_image.py
 RUN chmod +x /usr/local/bin/scripts/__init__.py
 RUN chmod +x /usr/local/bin/scripts/__init__.pyc
+RUN chmod +x /usr/local/bin/scripts/retrainV2.py
 
 WORKDIR /usr/local/bin
